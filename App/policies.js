@@ -7,7 +7,7 @@ const b2cPolicies = {
     names: {
         signUpSignIn: "B2C_1_FHIRDevPortal_signup",
         forgotPassword: "b2c_1_reset",
-        editProfile: "b2c_1_edit_profile"
+        editProfile: "B2C_1_FHIRDevPortal_profile_editing"
     },
     authorities: {
         signUpSignIn: {
@@ -17,7 +17,7 @@ const b2cPolicies = {
             authority: "https://FHIRDevPortal.b2clogin.com/FHIRDevPortal.onmicrosoft.com/b2c_1_reset",
         },
         editProfile: {
-            authority: "https://FHIRDevPortal.b2clogin.com/FHIRDevPortal.onmicrosoft.com/b2c_1_edit_profile"
+            authority: "https://FHIRDevPortal.b2clogin.com/FHIRDevPortal.onmicrosoft.com/B2C_1_FHIRDevPortal_profile_editing"
         }
     },
     authorityDomain: "FHIRDevPortal.b2clogin.com"
