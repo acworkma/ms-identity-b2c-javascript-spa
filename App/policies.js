@@ -11,7 +11,7 @@ const b2cPolicies = {
     },
     authorities: {
         signUpSignIn: {
-            authority: "https://FHIRDevPortal.b2clogin.com/FHIRDevPortal..onmicrosoft.com/B2C_1_FHIRDevPortal_signup",
+            authority: "https://FHIRDevPortal.b2clogin.com/FHIRDevPortal.onmicrosoft.com/B2C_1_FHIRDevPortal_signup",
         },
         forgotPassword: {
             authority: "https://FHIRDevPortal.b2clogin.com/FHIRDevPortal.onmicrosoft.com/b2c_1_reset",
