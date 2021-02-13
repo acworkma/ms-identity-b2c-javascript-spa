@@ -5,20 +5,20 @@
  */
 const b2cPolicies = {
     names: {
-        signUpSignIn: "b2c_1_susi",
+        signUpSignIn: "B2C_1_FHIRDevPortal_signup",
         forgotPassword: "b2c_1_reset",
         editProfile: "b2c_1_edit_profile"
     },
     authorities: {
         signUpSignIn: {
-            authority: "https://fabrikamb2c.b2clogin.com/fabrikamb2c.onmicrosoft.com/b2c_1_susi",
+            authority: "https://FHIRDevPortal..b2clogin.com/FHIRDevPortal..onmicrosoft.com/B2C_1_FHIRDevPortal_signup",
         },
         forgotPassword: {
-            authority: "https://fabrikamb2c.b2clogin.com/fabrikamb2c.onmicrosoft.com/b2c_1_reset",
+            authority: "https://FHIRDevPortal.b2clogin.com/FHIRDevPortal.onmicrosoft.com/b2c_1_reset",
         },
         editProfile: {
-            authority: "https://fabrikamb2c.b2clogin.com/fabrikamb2c.onmicrosoft.com/b2c_1_edit_profile"
+            authority: "https://FHIRDevPortal.b2clogin.com/FHIRDevPortal.onmicrosoft.com/b2c_1_edit_profile"
         }
     },
-    authorityDomain: "fabrikamb2c.b2clogin.com"
+    authorityDomain: "FHIRDevPortal.b2clogin.com"
 }
